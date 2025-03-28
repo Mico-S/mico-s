@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: home.njk
 title: Hey, I'm Micah!
 ---
 

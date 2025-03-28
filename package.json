@@ -1,0 +1,25 @@
+{
+  "name": "mico-s",
+  "version": "1.0.0",
+  "description": "<!-- **Mico-S/mico-s** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mico-S/mico-s.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mico-S/mico-s/issues"
+  },
+  "homepage": "https://github.com/Mico-S/mico-s#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

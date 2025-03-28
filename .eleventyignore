@@ -1,0 +1,6 @@
+README.md
+node_modules
+_site
+.git
+package.json
+package-lock.json 
