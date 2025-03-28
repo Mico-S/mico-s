@@ -1,6 +1,6 @@
 ---
 layout: home
-title: home
+title: Hey, I'm Micah!
 ---
 
-Welcome to my blog! Check out the latest below.
+Welcome to the blog site! Check out the latest below.
