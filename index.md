@@ -1,5 +1,5 @@
 ---
-layout: Home
+layout: home
 title: Hey, I'm Micah!
 ---
 
