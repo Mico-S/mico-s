@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 
 <!-- markdownlint-disable MD033 -->
 <figure>
-  <img src="/assets/images/about.jpg" alt="About me photo" class="about-image">
+  <img src="{{ '/assets/images/about.jpg' | url }}" alt="About me photo" class="about-image">
   <figcaption>My brother and I (left) on Mt. Democrat</figcaption>
 </figure>
 <!-- markdownlint-enable MD033 -->

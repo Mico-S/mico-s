@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
 </head>
 <body>
     <header>
         <nav>
             <h1>{{ site.title }}</h1>
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="/about/">About</a>
+                <a href="{{ '/' | url }}">Home</a>
+                <a href="{{ '/about/' | url }}">About</a>
             </div>
         </nav>
     </header>

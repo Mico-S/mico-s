@@ -30,6 +30,7 @@ module.exports = function (eleventyConfig) {
 
   // Set input and output directories
   return {
+    pathPrefix: "/mico-s/",
     dir: {
       input: "src",
       includes: "_includes",
