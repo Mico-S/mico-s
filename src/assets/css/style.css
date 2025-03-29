@@ -138,17 +138,13 @@ figcaption {
   margin-bottom: 2rem;
 }
 
-.contacts-section ul {
+ul {
   padding-left: 1.2rem;
   margin-bottom: 0;
 }
 
-.contacts-section li {
+li {
   margin-bottom: 0.3rem;
-}
-
-.contacts-section li:last-child {
-  margin-bottom: 0;
 }
 
 /* Footer styling */

@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
 </figure>
 <!-- markdownlint-enable MD033 -->
 
-Hi! I'm Micah Cook, a developer and blogger. I'm currently based out of Denver and work at [Aclymate](https://aclymate.com) and [Renoster](https://renoster.co) as a founding software engineer. In my spare time, I enjoy reading, meteorology, and basketball.
+Hi! I'm Micah Cook, a developer based out of Denver, Colorado. I'm currently work at [Aclymate](https://aclymate.com) and [Renoster](https://renoster.co) as a founding software engineer. In my spare time, I enjoy reading, meteorology, and basketball.
 
 <!-- markdownlint-disable MD033 -->
 <div class="contacts-section">

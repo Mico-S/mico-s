@@ -7,13 +7,14 @@ layout: base.njk
 <div class="post-list">
     <h2 class="post-list-title">Recent</h2>
     {% for post in collections.posts | reverse %}
+        {% set excerpt = post.templateContent | excerpt %}
         <article class="post-preview">
             <h3>
                 <a href="{{ post.url | url }}">{{ post.data.title }}</a>
             </h3>
             <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
             <p>
-                {{ post.templateContent | striptags | truncate(200) }}
+                {{ excerpt | striptags | decodeHtmlEntities | truncate(200) }}
             </p>
             <a href="{{ post.url | url }}" class="read-more">Read more</a>
         </article>

@@ -12,7 +12,32 @@ module.exports = function (eleventyConfig) {
       year: "numeric",
       month: "long",
       day: "numeric",
+      timeZone: "UTC",
     });
+  });
+
+  // Add HTML entity decoding filter
+  eleventyConfig.addFilter("decodeHtmlEntities", (string) => {
+    return string
+      .replace(/&quot;/g, '"')
+      .replace(/&amp;/g, "&")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&#39;/g, "'");
+  });
+
+  // Add excerpt filter to get first paragraph
+  eleventyConfig.addFilter("excerpt", (content) => {
+    if (!content) return "";
+
+    // First, check if there's a paragraph before any headers
+    const firstParagraphMatch = content.match(/<p>(.*?)<\/p>/);
+    if (firstParagraphMatch && firstParagraphMatch[0]) {
+      return firstParagraphMatch[0];
+    }
+
+    // If no paragraphs found, return a safe empty string
+    return "";
   });
 
   // Configure Markdown-it with attributes plugin
@@ -25,6 +50,7 @@ module.exports = function (eleventyConfig) {
       html: true,
       breaks: true,
       linkify: true,
+      typographer: true, // Enable smartquotes and other typographic replacements
     }).use(markdownItAttrs)
   );
 
