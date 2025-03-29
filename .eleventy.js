@@ -15,6 +15,19 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // Configure Markdown-it with attributes plugin
+  const markdownIt = require("markdown-it");
+  const markdownItAttrs = require("markdown-it-attrs");
+
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt({
+      html: true,
+      breaks: true,
+      linkify: true,
+    }).use(markdownItAttrs)
+  );
+
   // Set input and output directories
   return {
     dir: {

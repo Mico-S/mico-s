@@ -13,6 +13,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem 1rem;
+  background-color: rgb(253, 253, 255);
 }
 
 a {
@@ -30,13 +31,20 @@ header {
   padding-bottom: 1rem;
 }
 
-header h1 {
-  margin-bottom: 0.5rem;
-}
-
 nav {
   display: flex;
   gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 main {
@@ -47,10 +55,18 @@ main {
   margin-top: 2rem;
 }
 
+.post-list-title {
+  margin-bottom: 1rem;
+}
+
 .post-preview {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #eee;
+}
+
+.post-preview:last-child {
+  border-bottom: none;
 }
 
 .post-preview h3 {
@@ -82,8 +98,65 @@ main {
   margin-bottom: 2rem;
 }
 
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+.post-content p:last-child {
+  margin-bottom: 0;
+}
+
 .post-navigation {
   margin-top: 2rem;
   padding-top: 1rem;
+}
+
+/* Add styling for about image */
+.about-image {
+  max-height: 400px;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+figure {
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Contacts section styling */
+.contacts-section {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contacts-section ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+.contacts-section li {
+  margin-bottom: 0.3rem;
+}
+
+.contacts-section li:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
   border-top: 1px solid #eee;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
 }

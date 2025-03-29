@@ -1,6 +1,6 @@
 ---
 layout: home.njk
-title: Hey, I'm Micah!
+title: I'm Micah Cook
 ---
 
-Welcome to the blog site! Check out the latest below.
+I'm Micah Cook, a developer and enjoyer of articles.
