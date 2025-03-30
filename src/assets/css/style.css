@@ -143,6 +143,16 @@ ul {
   margin-bottom: 0;
 }
 
+ol {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+ol li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
 li {
   margin-bottom: 0.3rem;
 }
