@@ -166,3 +166,27 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
+
+.image-grid {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.image-grid figure {
+  flex: 1;
+  margin: 0;
+}
+
+.grid-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .image-grid {
+    flex-direction: column;
+  }
+}
