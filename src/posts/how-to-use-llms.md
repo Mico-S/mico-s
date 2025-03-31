@@ -1,5 +1,5 @@
 ---
-title: "How I use LLMs effectively"
+title: "How I use LLMs"
 date: 2025-03-30
 layout: post.njk
 tags: posts
