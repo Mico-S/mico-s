@@ -32,6 +32,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+      - name: Add CNAME file
+        run: echo 'www.micahcook.net' > _site/CNAME
 
   deploy:
     environment:
