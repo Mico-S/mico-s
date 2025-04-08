@@ -5,7 +5,7 @@ layout: post.njk
 tags: posts
 ---
 
-Article: [React.memo Demystified: When It Helps and When It Hurts](https://niila.fi/en/ai-cheats/) by Christian Ekrem
+Article: [React.memo Demystified: When It Helps and When It Hurts](https://cekrem.github.io/posts/react-memo-when-it-helps-when-it-hurts/) by Christian Ekrem
 
 This is the best explanation of memoization that I've read. In my time developing React applications, I've rarely seen the `useMemo` and `useCallback` hooks, so it's difficult to get an understanding of them, let alone when to use them. Christian breaks down:
 
