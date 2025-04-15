@@ -1,0 +1,88 @@
+/* src/assets/css/_layout.css */
+
+header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Ensure site title link inherits text color and has no underline */
+.site-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-title-link:hover {
+  text-decoration: none; /* Ensure no underline on hover either */
+}
+
+main {
+  margin-bottom: 2rem;
+}
+
+.post-list {
+  margin-top: 2rem;
+}
+
+.post-list-title {
+  margin-bottom: 1rem;
+}
+
+/* Add styling for about image */
+.about-image {
+  max-height: 400px;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* Contacts section styling */
+.contacts-section {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.image-grid {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.image-grid figure {
+  flex: 1;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .image-grid {
+    flex-direction: column;
+  }
+}
