@@ -28,4 +28,23 @@ The most valuable chapter to me, Newport explains how if one truely invests them
 
 ### Rule #1: Work Deeply
 
-Newport starts off talking about the different practices/habits available to perform deep work, and to choose one that makes sense given your circumstances (CEO vs. academic vs. another type of worker).
+Newport starts off talking about the different practices/habits available to perform deep work, and to choose one that makes sense given your circumstances (CEO vs. academic vs. another type of worker). He outlines 4 types that he has seen before:
+
+- Monastic deep work: Multi-month/seasonal stretches of deep work
+- Bi-modal deep work: In a given week, using 4 days for deep work and 3 for availability
+- Ritualistic deep work: In a given day, using set periods of time for deep work (e.g. 5 to 7 am for deep work)
+- Journalistic deep work: Fitting in deep work where you can, like an on/off switch
+
+There is no one correct ritual, and you'll need to experiment what works for you, but every effective ritual must address:
+
+- Where you'll work and for how long: usually a quite space and time framed (JK Rowling example of going to a hotel suite for work on Deathly Hallows)
+- How you'll work once you start to work: things like bans on internet during the time frame, metrics to keep yourself focused, and what you'll work on in chunks
+- How you'll support your work: coffee, proper diet, and walking are things to keep your mind nourished while it's working hard
+
+Newport also talks about the 4DX framework for how to accomplish specific goals with deep work. The key here is to make you more consistent over a long period of time, rather than bunching things around certain times:
+
+1. Focus on a wildly ambitious goal and let that take your mind off of smaller, more superficial things
+2. Use lead/lag indicators: essentially, track deep work sessions (lead) and results produced (lag)
+3. Do weekly reviews of your progress, see what needs to change or continue
+
+Having a consistent habit of "shutdown" is also vitally important: at the end of every work day, make it a habit to completely shut off all work related tasks or thinking. You'll need this to allow your unconcious mind to solve more difficult questions that require many considerations.
