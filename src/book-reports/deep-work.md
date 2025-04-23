@@ -47,4 +47,8 @@ Newport also talks about the 4DX framework for how to accomplish specific goals 
 2. Use lead/lag indicators: essentially, track deep work sessions (lead) and results produced (lag)
 3. Do weekly reviews of your progress, see what needs to change or continue
 
-Having a consistent habit of "shutdown" is also vitally important: at the end of every work day, make it a habit to completely shut off all work related tasks or thinking. You'll need this to allow your unconcious mind to solve more difficult questions that require many considerations.
+### Rule #2: Embrace Boredom
+
+Having a consistent habit of "shutdown" is also vitally important: at the end of every work day, make it a habit to completely shut off all work related tasks or thinking. You'll need this to allow your unconcious mind to solve more difficult questions that require many considerations. Having a "shutdown habit" at the end of the workday can be valuable. You basically take an extra 10 or 15 minutes post-work to schedule and track what needs to get done and how you'll approach the next day, then have a ritual to leave it all. Using the extra time in the evenings for pleasant low-stimuli activity can be helpful to recoup. For example, walking, having a conversation with a friend, etc. Obviously it doesn't me don't do anything, you can still work on side projects or read things, just don't think of work at all.
+
+Newport also says how it's not necessarily that distracting services makes us more distracted, it's that constant switching from low-stimuli/high-value activities to high-stimuli/low-value activities at the slightest hint of boredom or fatigue or stress causes a lot of damage. Using the internet in blocks or chunks is what he suggests to reduce the urge and addiction of switching - to further train the mind to be deep.
